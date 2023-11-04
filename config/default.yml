@@ -367,6 +367,11 @@ Performance/UnfreezeString:
   VersionAdded: '0.50'
   VersionChanged: '1.9'
 
+Performance/UniqSort:
+  Description: 'Use `uniq.sort` instead of `sort.uniq`.'
+  Enabled: pending
+  VersionAdded: '<<next>>'
+
 Performance/UriDefaultParser:
   Description: 'Use `URI::DEFAULT_PARSER` instead of `URI::Parser.new`.'
   Enabled: true
